@@ -44,3 +44,4 @@ Votre contribution est la bienvenue, si vous souhaitez nous en faire part, suive
 3. Commitez vos modifications (git commit -m 'Ajout de la nouvelle fonctionnalité').
 4. Poussez vers la branche (git push origin feature/nouvelle-fonctionnalite).
 5. Créez une nouvelle Pull Request.
+
