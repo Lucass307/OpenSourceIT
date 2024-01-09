@@ -4,6 +4,8 @@
 
 ## Description
 
+Jeu de combat stratégique en langage C. Collectionnez, évoluez et combattez avec des créatures personnalisées. Affrontez d'autres joueurs virtuels et montez en niveau en remportant un maximum de victoires !
+
 ## Installation 
 
 ### Prérequis
@@ -33,6 +35,16 @@ pacman -S mingw-w64-x86_64-SDL2
 ```
 
 ## Utilisation
+
+Après avoir cloné le dépôt Git et installé les dépendances nécessaires, voici les étapes à suivre pour jouer au jeu : 
+1. Lancez le terminal MSYS2
+2. Utilisez la commande 'cd' pour vous déplacer vers le répertoire dans lequel est cloné le dépôt Git.
+3. Compilez le code avec la commande 'make'.
+4. Exécutez le jeu avec la commande :
+```bash
+./nom_du_jeu
+```
+Une fois le jeu lancé, suivez les instructions à l'écran pour jouer. Cela peut inclure l'utilisation certaines touches du clavier ou de la souris.
 
 ## Contribution
 
