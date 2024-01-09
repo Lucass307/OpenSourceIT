@@ -1,0 +1,68 @@
+name : First
+vie : 150
+atk : 80
+def : 50
+vit : 10
+face : {
+circle -30, 55, 15 rgba 131, 82, 51, 255
+circle -30, 55, 10 rgba 165, 103, 64, 255
+circle 30, 55, 15 rgba 131, 82, 51, 255
+circle 30, 55, 10 rgba 165, 103, 64, 255
+circle 30, 25, 15 rgba 131, 82, 51, 255
+circle 30, 25, 10 rgba 165, 103, 64, 255
+circle 0, 25, 40 rgba 131, 82, 51, 255
+circle 0, 25, 35 rgba 165, 103, 64, 255
+circle 5, 35, 15 rgba 187, 117, 72, 255
+circle 20, -40, 12 rgba 131, 82, 51, 255
+circle -20, -40, 12 rgba 131, 82, 51, 255
+circle 0, -25, 25 rgba 131, 82, 51, 255
+circle 20, -40, 7 rgba 165, 103, 64, 255
+circle -20, -40, 7 rgba 165, 103, 64, 255
+circle 20, -40, 5 rgba 146, 77, 110, 255
+circle -20, -40, 5 rgba 146, 77, 110, 255
+circle 0, -25, 20 rgba 165, 103, 64, 255
+circle 8, -30, 7 rgba 131, 82, 51, 255
+circle -8, -30, 7 rgba 131, 82, 51, 255
+circle 8, -30, 6 rgba 204, 204, 204, 255
+circle -8, -30, 6 rgba 204, 204, 204, 255
+circle 8, -30, 4 rgba 51, 51, 51, 255
+circle -8, -30, 4 rgba 51, 51, 51, 255
+circle 6, -32, 2 rgba 255, 255, 255, 255
+circle 9, -29, 1 rgba 255, 255, 255, 255
+circle -10, -32, 2 rgba 255, 255, 255, 255
+circle -7, -29, 1 rgba 255, 255, 255, 255
+circle 0, -15, 5 rgba 54, 34, 21, 255
+circle 0, -12, 2 rgba 146, 77, 110, 255
+circle -30, 5, 15 rgba 131, 82, 51, 255
+line 12, -18, 25, -20, 1 rgba 54, 34, 21, 255
+line 12, -15, 25, -15, 1 rgba 54, 34, 21, 255
+line 12, -12, 25, -10, 1 rgba 54, 34, 21, 255
+line -12, -18, -25, -20, 1 rgba 54, 34, 21, 255
+line -12, -15, -25, -15, 1 rgba 54, 34, 21, 255
+line -12, -12, -25, -10, 1 rgba 54, 34, 21, 255
+polygon 3 3, -25, -3, -25, 0, -21 rgba 104, 65, 40, 255
+polygon 3 -35, -5, -25, -5, -30, -15 rgba 131, 82, 51, 255
+polygon 3 -25, -0, -15, 0, -15, -15 rgba 131, 82, 51, 255
+polygon 3 -35, -0, -45, 0, -45, -15 rgba 131, 82, 51, 255
+polygon 3 3, -25, -3, -25, 0, -21 rgba 104, 65, 40, 255
+circle -30, 5, 10 rgba 165, 103, 64, 255
+polygon 3 -32, -5, -28, -5, -30, -10 rgba 165, 103, 64, 255
+polygon 3 -30, 5, -20, 5, -18, -5 rgba 165, 103, 64, 255
+polygon 3 -30, 5, -40, 5, -42, -5 rgba 165, 103, 64, 255
+}
+back : {
+circle 0, 25, 50 rgba 131, 82, 51, 255
+circle 0, -40, 15 rgba 131, 82, 51, 255
+circle 0, -40, 10 rgba 165, 103, 64, 255
+circle 25, -25, 30 rgba 131, 82, 51, 255
+circle 50, -40, 15 rgba 131, 82, 51, 255
+circle 25, -25, 25 rgba 165, 103, 64, 255
+circle 50, -40, 10 rgba 165, 103, 64, 255
+circle 0, 25, 45 rgba 165, 103, 64, 255
+}
+capacities : {
+load media/cap/coup.cap
+load media/cap/heal.cap
+load media/cap/raise.cap
+load media/cap/fear.cap
+}
