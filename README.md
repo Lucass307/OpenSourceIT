@@ -32,7 +32,7 @@ Toujours dans le terminal MSYS2, exécutez la commande suivante pour installer l
 pacman -S mingw-w64-x86_64-SDL2
 ```
 
-### Utilisation
+## Utilisation
 
 ## Contribution
 
