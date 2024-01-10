@@ -69,7 +69,7 @@ void vigenere_main(int argc, char * argv[]) {
     fclose(input);
 }
 
-int test_main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
     vigenere_main(argc, argv);
     return 0;
 }
