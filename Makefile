@@ -2,8 +2,8 @@
 # ESGI : Cours de Langage C de Kevin TRANCHO.
 # ------------------------------------------
 
-SDL_CFLAGS := $(shell sdl2-config --cflags)
-SDL_LDFLAGS := $(shell sdl2-config --libs)
+CFLAGS += $(shell pkg-config --cflags sdl2)
+LDFLAGS += $(shell pkg-config --libs sdl2)
 
 CFLAGS += $(SDL_CFLAGS)
 LDFLAGS += $(SDL_LDFLAGS)
