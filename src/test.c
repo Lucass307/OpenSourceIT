@@ -5,8 +5,6 @@
 #include "vigenere_file.h"
 
 // Inclure le code que vous souhaitez tester
-#include "vigenere_file.c"
-
 void setUp(void) {
     // Initialiser avant chaque test si nécessaire
 }
