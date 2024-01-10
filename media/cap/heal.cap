@@ -1,3 +1,0 @@
-nom Se soigner
-action $self.vie *= 1.2
-message $self se soigne .
