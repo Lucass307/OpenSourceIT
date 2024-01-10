@@ -32,7 +32,7 @@ jobs:
 
     - name: Exécution de clang-format
       run: |
-        if ! git diff --exit-code --cached || git diff --exit-code; then
+        if ! git diff --exit-code; then
           echo "Le code n'est pas formaté correctement. Veuillez exécuter 'clang-format' et valider les modifications."
           exit 1
         fi
