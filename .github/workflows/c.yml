@@ -1,0 +1,38 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Compile
+      run: gcc -o myprogram main.c
+    - name: Run Tests
+      run: |
+        gcc -o tests test.c
+        ./tests
+    - name: make distcheck
+      run: # Commandes pour distcheck, si nécessaire
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install clang-format
+      run: sudo apt-get install clang-format -y
+
+    - name: Run clang-format
+      run: |
+        if ! git diff --exit-code; then
+          echo "Code is not formatted correctly. Please run 'clang-format' and commit the changes."
+          exit 1
+        fi
