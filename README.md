@@ -1,19 +1,18 @@
 # OpenSourceIT
 
-- Un jeu en C inspiré du célèbre Pokemon 
+vignr - Un programme en langage C qui lit du texte depuis un fichier texte.
 
 ## Description
 
-Jeu de combat stratégique en langage C. Collectionnez, évoluez et combattez avec des créatures personnalisées. Affrontez d'autres joueurs virtuels et montez en niveau en remportant un maximum de victoires !
+Ce programme a pour fonction la lecture d'un texte à partir d'un fichier texte, puis applique méthode de chiffrement Vigenère avec une clé spécifiée, que ce soit pour encoder un message confidentiel ou décoder une communication cryptée. Une fois le processus de chiffrement ou de déchiffrement accompli, le résultat est affiché sur la sortie standard, offrant ainsi une solution polyvalente et pratique pour sécuriser ou interpréter des messages texte de manière confidentielle.
 
 ## Installation 
 
 ### Prérequis
 * MSYS2
 * GCC (GNU Compiler Collecton)
-* SDL Library
 
-Pour jouer à ce jeu, suivez les étapes d'installation suivantes : 
+Pour bénéficier du programme sur votre machine, suivez les étapes d'installation suivantes : 
 
 ### 1. Installer MSYS2
 
@@ -27,24 +26,20 @@ Une fois MSYS2 installé, ouvrez le terminal MSYS2 et exécutez la commande suiv
 pacman -S mingw-w64-x86_64-gcc
 ```
 
-### 2. Installer SDL Library
-Toujours dans le terminal MSYS2, exécutez la commande suivante pour installer la bibliothèque SDL :
-
-```bash
-pacman -S mingw-w64-x86_64-SDL2
-```
-
 ## Utilisation
 
-Après avoir cloné le dépôt Git et installé les dépendances nécessaires, voici les étapes à suivre pour jouer au jeu : 
+Après avoir cloné le dépôt Git et installé les dépendances nécessaires, voici les étapes à suivre pour lancer le programme : 
 1. Lancez le terminal MSYS2
 2. Utilisez la commande 'cd' pour vous déplacer vers le répertoire dans lequel est cloné le dépôt Git.
-3. Compilez le code avec la commande 'make'.
-4. Exécutez le jeu avec la commande :
+3. Compilez le code avec gcc
 ```bash
-./nom_du_jeu
+gcc vigenere_file.c -o nom_du_programme
 ```
-Une fois le jeu lancé, suivez les instructions à l'écran pour jouer. Cela peut inclure l'utilisation certaines touches du clavier ou de la souris.
+4. Exécutez le programme avec la commande :
+```bash
+./vigenere_file.c
+```
+Une fois le programme lancé, suivez les instructions à l'écran : Si votre programme demande à l'utilisateur de spécifier le nom du fichier à traiter, entrez le nom du fichier ou le chemin complet comme demandé.
 
 ## Contribution
 
