@@ -78,7 +78,7 @@ void test_vigenere_decrypt() {
     TEST_ASSERT_EQUAL_STRING("WORLD", buffer2);
 }
 
-int main(void) {
+int main_test(void) {
     UNITY_BEGIN();
 
     // Run tests
@@ -86,4 +86,12 @@ int main(void) {
     RUN_TEST(test_vigenere_decrypt);
 
     return UNITY_END();
+}
+
+#define main main_test
+
+// Définissez votre propre main ici
+int main(int argc, char *argv[]) {
+    vigenere_main(argc, argv);)
+    return 0;
 }
