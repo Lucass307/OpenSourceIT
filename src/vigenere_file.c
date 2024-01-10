@@ -44,7 +44,7 @@ void vigenere(FILE * input, char * cle, int sign, FILE * output) {
     }
 }
 
-int main(int argc, char * argv[]) {
+void vigenere_main(int argc, char * argv[]) {
     if(argc <= 2) {
         printf("Attendu : %s [FICHIER MESSAGE] [CLE]\n", argv[0]);
         printf("Attendu : %s [FICHIER MESSAGE] [CLE] decode\n", argv[0]);
@@ -67,5 +67,4 @@ int main(int argc, char * argv[]) {
     /* dans le fichier. */
     vigenere(input, cle, sign, output);
     fclose(input);
-    exit(EXIT_SUCCESS);
 }
