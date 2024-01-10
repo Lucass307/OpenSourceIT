@@ -4,7 +4,7 @@
 #include <string.h>
 
 // Inclure le code que vous souhaitez tester
-#include "vigenere_file.c" 
+#include "vigenere_file.h" 
 
 void setUp(void) {
     // Initialiser avant chaque test si nécessaire
