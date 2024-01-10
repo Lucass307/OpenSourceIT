@@ -78,7 +78,7 @@ void test_vigenere_decrypt() {
     TEST_ASSERT_EQUAL_STRING("WORLD", buffer2);
 }
 
-int main_test(void) {
+int main(void) {
     UNITY_BEGIN();
 
     // Run tests
@@ -87,6 +87,4 @@ int main_test(void) {
 
     return UNITY_END();
 }
-
-#define main main_test
 
