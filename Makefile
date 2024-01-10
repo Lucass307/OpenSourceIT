@@ -2,6 +2,12 @@
 # ESGI : Cours de Langage C de Kevin TRANCHO.
 # ------------------------------------------
 
+SDL_CFLAGS := $(shell sdl2-config --cflags)
+SDL_LDFLAGS := $(shell sdl2-config --libs)
+
+CFLAGS += $(SDL_CFLAGS)
+LDFLAGS += $(SDL_LDFLAGS)
+
 CC= gcc
 ifdef OS # Windows' case
 SDLDEFINES= -DSDL_MAIN_HANDLED
