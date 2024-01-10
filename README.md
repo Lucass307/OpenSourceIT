@@ -1,6 +1,6 @@
 # OpenSourceIT
 
-vignr - Un programme en langage C qui permet de chiffrer le contenu d'un fichier avec la méthode de Vigenère.
+vigenere_file - Un programme en langage C qui permet de chiffrer le contenu d'un fichier avec la méthode de Vigenère.
 
 ## Description
 
