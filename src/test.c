@@ -92,6 +92,6 @@ int main_test(void) {
 
 // Définissez votre propre main ici
 int main(int argc, char *argv[]) {
-    vigenere_main(argc, argv);)
+    vigenere_main(argc, argv);
     return 0;
 }
