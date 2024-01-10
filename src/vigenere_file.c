@@ -71,5 +71,8 @@ void vigenere_main(int argc, char * argv[]) {
 
 int main(int argc, char *argv[]) {
     vigenere_main(argc, argv);
-    return 0;
+    UNITY_BEGIN();
+    RUN_TEST(test_vigenere_encrypt);
+    RUN_TEST(test_vigenere_decrypt);
+    return UNITY_END();
 }
