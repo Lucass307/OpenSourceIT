@@ -78,4 +78,12 @@ void test_vigenere_decrypt() {
     TEST_ASSERT_EQUAL_STRING("WORLD", buffer2);
 }
 
+int test_program_main(void) {
+    UNITY_BEGIN();
 
+    // Exécutez vos tests
+    RUN_TEST(test_vigenere_encrypt);
+    RUN_TEST(test_vigenere_decrypt);
+
+    return UNITY_END();
+}
