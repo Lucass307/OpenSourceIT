@@ -4,7 +4,7 @@
 #include <string.h>
 
 // Inclure le code que vous souhaitez tester
-#include "vigenere_file.c"  // Assurez-vous de fournir le nom correct du fichier source
+#include "vigenere_file.c" 
 
 void setUp(void) {
     // Initialiser avant chaque test si nécessaire
@@ -90,8 +90,3 @@ int main_test(void) {
 
 #define main main_test
 
-// Définissez votre propre main ici
-int main(int argc, char *argv[]) {
-    vigenere_main(argc, argv);
-    return 0;
-}
