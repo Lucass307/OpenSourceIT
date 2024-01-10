@@ -16,13 +16,13 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up GCC
-      run: sudo apt-get install gcc
+      run: sudo apt-get install build-essential
 
     - name: Build
-      run: make ./Makefile
+      run: make -f ./Makefile
 
     - name: Run tests
-      run: ./src/test.c
-      
+      run: ./src/test
+
     - name: Clean up
-      run: make clean
+      run: make -f ./Makefile clean
