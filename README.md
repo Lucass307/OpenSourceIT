@@ -33,11 +33,11 @@ Après avoir cloné le dépôt Git et installé les dépendances nécessaires, v
 2. Utilisez la commande 'cd' pour vous déplacer vers le répertoire dans lequel est cloné le dépôt Git.
 3. Compilez le code avec gcc
 ```bash
-gcc nom_du_programme.c -o nom_du_programme
+gcc vigenere_file.c -o nom_du_programme
 ```
 4. Exécutez le programme avec la commande :
 ```bash
-./nom_du_programme
+./vigenere_file.c
 ```
 Une fois le programme lancé, suivez les instructions à l'écran : Si votre programme demande à l'utilisateur de spécifier le nom du fichier à traiter, entrez le nom du fichier ou le chemin complet comme demandé.
 
