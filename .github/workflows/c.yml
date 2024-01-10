@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Compilation du fichier source
-      run: gcc -o myprogram ./src/vigenere_file.c
+      run: gcc -o myprogram ./src/vigenere_file.c -I./src/
 
     - name: Compilation du fichier de test
       run: gcc -o tests -I./src/ ./src/unity.c ./src/test.c ./src/vigenere_file.c
