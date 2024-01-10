@@ -20,6 +20,12 @@ void test_vigenere_encrypt() {
     fclose(input1);
 
     char *argv1[] = {"program_name", "test_input1.txt", "KEY"};
+    printf("Running encrypt test with arguments: ");
+    for (int i = 0; i < 3; ++i) {
+        printf("%s ", argv1[i]);
+    }
+    printf("\n");
+
     vigenere_main(3, argv1);
 
     FILE *result1 = fopen("test_output1.txt", "r");
@@ -38,6 +44,12 @@ void test_vigenere_decrypt() {
     fclose(input1);
 
     char *argv1[] = {"program_name", "test_input1.txt", "KEY", "decode"};
+    printf("Running decrypt test with arguments: ");
+    for (int i = 0; i < 4; ++i) {
+        printf("%s ", argv1[i]);
+    }
+    printf("\n");
+
     vigenere_main(4, argv1);
 
     FILE *result1 = fopen("test_output1.txt", "r");
