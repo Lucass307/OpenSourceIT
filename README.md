@@ -1,3 +1,5 @@
+[![C/C++ CI](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml/badge.svg)](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml)
+
 # OpenSourceIT
 
 vigenere_file - Un programme en langage C qui permet de chiffrer le contenu d'un fichier avec la méthode de Vigenère.
