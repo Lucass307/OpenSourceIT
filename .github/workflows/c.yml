@@ -18,7 +18,7 @@ jobs:
       run: gcc -o myprogram ./src/vigenere_file.c
 
     - name: Compilation du fichier de test
-      run: gcc -o tests -I./src/ ./src/test.c ./src/vigenere_file.c
+      run: gcc -o tests -I./src/ -I./src/unity.c ./src/test.c ./src/vigenere_file.c
 
     - name: Exécution des tests
       run: ./tests
