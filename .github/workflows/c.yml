@@ -1,0 +1,35 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout du code
+      uses: actions/checkout@v3
+    - name: Compilation
+      run: gcc -o myprogram ./src/vigenere_file.c
+    - name: Exécution des tests
+      run: |
+        gcc -o tests ./src/test.c
+        ./tests
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Installation de clang-format
+      uses: actions/checkout@v3
+
+    - name: Exécution de clang-format
+      run: |
+        if ! git diff --exit-code; then
+          echo "Le code n'est pas formaté correctement. Veuillez exécuter 'clang-format' et valider les modifications."
+          exit 1
+        fi
