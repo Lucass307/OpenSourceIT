@@ -60,11 +60,11 @@ Après avoir cloné le dépôt Git et installé les dépendances nécessaires, v
 3. Utilisez la commande 'cd' pour vous déplacer vers le répertoire dans lequel est cloné le dépôt Git.
 4. Compilez le code avec gcc
 ```bash
-gcc -o exe vigenere_file.c
+gcc -o myprogram ./src/vigenere_file.c ./src/main.c
 ```
-4. Exécutez le programme en précisant la clé suivie de l'option de déchiffrement si l'on veut (si rien est précisé on chiffrera) :
+4. Exécutez le programme en précisant le fichier cible avec la clé de chiffrement suivie de l'option decode si l'on veut (si rien est précisé on chiffrera) :
 ```bash
-./exe [fichier][cle] (decode)
+./mypgrogram [fichier][cle] (decode)
 ```
 Une fois le programme lancé, si votre programme demande à l'utilisateur de spécifier le nom du fichier à traiter, entrez le nom du fichier ou le chemin complet comme demandé.
 
