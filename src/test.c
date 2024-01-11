@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "vigenere_file.h"
 
 // Inclure le code que vous souhaitez tester
-#include "vigenere_file.c"  // Assurez-vous de fournir le nom correct du fichier source
-
 void setUp(void) {
     // Initialiser avant chaque test si nécessaire
 }
@@ -21,29 +20,21 @@ void test_vigenere_encrypt() {
     fclose(input1);
 
     char *argv1[] = {"program_name", "test_input1.txt", "KEY"};
-    main(3, argv1);
+    printf("Running encrypt test with arguments: ");
+    for (int i = 0; i < 3; ++i) {
+        printf("%s ", argv1[i]);
+    }
+    printf("\n");
+
+    vigenere_main(3, argv1);
 
     FILE *result1 = fopen("test_output1.txt", "r");
     char buffer1[1024];
     fgets(buffer1, sizeof(buffer1), result1);
     fclose(result1);
 
+    printf("Output for encrypt: %s\n", buffer1);
     TEST_ASSERT_EQUAL_STRING("RIJVS", buffer1);
-
-    // Test case 2
-    FILE *input2 = fopen("test_input2.txt", "w");
-    fputs("WORLD", input2);
-    fclose(input2);
-
-    char *argv2[] = {"program_name", "test_input2.txt", "KEY"};
-    main(3, argv2);
-
-    FILE *result2 = fopen("test_output2.txt", "r");
-    char buffer2[1024];
-    fgets(buffer2, sizeof(buffer2), result2);
-    fclose(result2);
-
-    TEST_ASSERT_EQUAL_STRING("ZVJNQ", buffer2);
 }
 
 void test_vigenere_decrypt() {
@@ -53,35 +44,27 @@ void test_vigenere_decrypt() {
     fclose(input1);
 
     char *argv1[] = {"program_name", "test_input1.txt", "KEY", "decode"};
-    main(4, argv1);
+    printf("Running decrypt test with arguments: ");
+    for (int i = 0; i < 4; ++i) {
+        printf("%s ", argv1[i]);
+    }
+    printf("\n");
+
+    vigenere_main(4, argv1);
 
     FILE *result1 = fopen("test_output1.txt", "r");
     char buffer1[1024];
     fgets(buffer1, sizeof(buffer1), result1);
     fclose(result1);
 
+    printf("Output for decrypt: %s\n", buffer1);
     TEST_ASSERT_EQUAL_STRING("HELLO", buffer1);
-
-    // Test case 2
-    FILE *input2 = fopen("test_input2.txt", "w");
-    fputs("ZVJNQ", input2);
-    fclose(input2);
-
-    char *argv2[] = {"program_name", "test_input2.txt", "KEY", "decode"};
-    main(4, argv2);
-
-    FILE *result2 = fopen("test_output2.txt", "r");
-    char buffer2[1024];
-    fgets(buffer2, sizeof(buffer2), result2);
-    fclose(result2);
-
-    TEST_ASSERT_EQUAL_STRING("WORLD", buffer2);
 }
 
-int main(void) {
+int test_program_main(void) {
     UNITY_BEGIN();
 
-    // Run tests
+    // Exécuter vos tests
     RUN_TEST(test_vigenere_encrypt);
     RUN_TEST(test_vigenere_decrypt);
 

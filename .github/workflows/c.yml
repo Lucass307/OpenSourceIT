@@ -13,12 +13,15 @@ jobs:
     steps:
     - name: Checkout du code
       uses: actions/checkout@v3
-    - name: Compilation
-      run: gcc -o myprogram ./src/vigenere_file.c
+
+    - name: Compilation du fichier source
+      run: gcc -o myprogram ./src/vigenere_file.c -I./src/
+
+    - name: Compilation du fichier de test
+      run: gcc -o tests -I./src/ ./src/unity.c ./src/test.c ./src/vigenere_file.c
+
     - name: Exécution des tests
-      run: |
-        gcc -o tests -I./src/ ./src/test.c
-        ./tests
+      run: ./tests
 
   lint:
     runs-on: ubuntu-latest

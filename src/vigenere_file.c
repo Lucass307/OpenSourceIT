@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "vigenere_file.h"
 
 void vigenere(FILE * input, char * cle, int sign, FILE * output) {
     int i, j;
@@ -67,4 +68,9 @@ void vigenere_main(int argc, char * argv[]) {
     /* dans le fichier. */
     vigenere(input, cle, sign, output);
     fclose(input);
+}
+
+int main(int argc, char *argv[]) {
+    vigenere_main(argc, argv);
+    return 0;
 }
