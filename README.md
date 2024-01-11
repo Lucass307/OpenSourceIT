@@ -24,9 +24,11 @@ Le programme a pour fonction la lecture d'un texte à partir d'un fichier texte,
 
 ## Documentation
 
-* [Installation](https://lien-ici) - Pour bénéficier du programme sur votre machine, les prérequis 
+* [Installation Windows](https://lien-ici) - Pour bénéficier du programme sur votre machine Windows, les prérequis 
   * [MSYS2](https://lien-ici#tag) - Va permettre d'avoir un environnement linux sur Windows
   * [GCC](https://lien-ici#tag) - Dans MSYS2, sert à compilr du langage C
+  * [Installation programme](https://lien-ici#tag) - Installer le programme pour l'utiliser
+* [Installation Linux](https://lien-ici) - Pour bénéficier du programme sur votre machine Linux
   * [Installation programme](https://lien-ici#tag) - Installer le programme pour l'utiliser
 * [Utilisation](https://lien-ici) - Pour comprendre comment utiliser et lancer le programme
 * [Coding](https://lien-ici) - Un environnement pour coder sur le projet 
