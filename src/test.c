@@ -45,33 +45,33 @@ void test_vigenere_encrypt() {
 }
 
 void test_vigenere_decrypt() {
-    // Test case 1
+    // Cas de test 1
     FILE *input1 = fopen("test_input1.txt", "w");
     fputs("RIJVS", input1);
     fclose(input1);
 
-    // Open the file in read mode
+    // Ouvrir le fichier en mode lecture
     input1 = fopen("test_input1.txt", "r");
 
     FILE *result1 = fopen("test_output1.txt", "w");
 
-    vigenere(input1, "KEY", 0, result1);  // Set the third parameter to 0 for decryption
-    fclose(input1);  // Close the file before reopening
+    vigenere(input1, "KEY", 0, result1);  // Mettez le troisième paramètre à 0 pour le déchiffrement
+    fclose(input1);  // Fermez le fichier avant de le rouvrir
     fclose(result1);
 
-    // Read the result from the output file
+    // Lire le résultat à partir du fichier de sortie
     result1 = fopen("test_output1.txt", "r");
     char buffer1[1024];
     fgets(buffer1, 1024, result1);
     fclose(result1);
 
-    // Add these display instructions
-    printf("Expected: HELLO\n");
-    printf("Actual  : %s\n", buffer1);
+    // Ajoutez ces instructions d'affichage
+    printf("Attendu : HELLO\n");
+    printf("Réel    : %s\n", buffer1);
 
     result1 = fopen("test_output1.txt", "r");
     rewind(result1);
-    printf("Output for decrypt: %s\n", buffer1);
+    printf("Sortie pour le déchiffrement : %s\n", buffer1);
     TEST_ASSERT_EQUAL_STRING("HELLO", buffer1);
     fclose(result1);
 }
