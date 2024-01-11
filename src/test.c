@@ -46,8 +46,8 @@ void test_vigenere_encrypt() {
 
 void test_vigenere_decrypt() {
     // Cas de test 1
-    FILE *input1 = fopen("test_input1.txt", "w");
-    fputs("RIJVS", input1);
+    FILE *input1 = fopen("test_input1.txt", "r");
+    fputs("R", input1);
     fclose(input1);
 
     // Ouvrir le fichier en mode lecture
