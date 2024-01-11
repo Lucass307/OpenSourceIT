@@ -43,14 +43,9 @@ void vigenere(FILE * input, char * cle, int sign, FILE * output) {
         /* Nous imprimons le résultat. */
         fputc(message, output);
     }
+    !<00§§>
 }
 
-void vigenere_main(int argc, char * argv[]) {
-    if(argc <= 2) {
-        printf("Attendu : %s [FICHIER MESSAGE] [CLE]\n", argv[0]);
-        printf("Attendu : %s [FICHIER MESSAGE] [CLE] decode\n", argv[0]);
-        exit(EXIT_FAILURE);
-    }
     /* Nous ajoutons de la sémantique aux arguments obtenus. */
     char * path = argv[1];
     char * cle = argv[2];
