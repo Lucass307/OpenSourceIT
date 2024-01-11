@@ -19,7 +19,7 @@ void test_vigenere_encrypt() {
     fputs("HELLO", input1);
     fclose(input1);
 
-    char *argv1[] = {"program_name", "test_input1.txt", "KEY"};
+    char *argv1[] = {"myprogram", "test_input1.txt", "KEY"};
     printf("Running encrypt test with arguments: ");
     for (int i = 0; i < 3; ++i) {
         printf("%s ", argv1[i]);
@@ -43,7 +43,7 @@ void test_vigenere_decrypt() {
     fputs("RIJVS", input1);
     fclose(input1);
 
-    char *argv1[] = {"program_name", "test_input1.txt", "KEY", "decode"};
+    char *argv1[] = {"myprogram", "test_input1.txt", "KEY", "decode"};
     printf("Running decrypt test with arguments: ");
     for (int i = 0; i < 4; ++i) {
         printf("%s ", argv1[i]);
