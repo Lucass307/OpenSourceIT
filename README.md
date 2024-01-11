@@ -52,11 +52,13 @@ sudo apt-get install build-essential
 
 ## Utilisation
 
-### Lancer le programme avec Windows
 Après avoir cloné le dépôt Git et installé les dépendances nécessaires, voici les étapes à suivre pour lancer le programme : 
-1. Lancez le terminal MSYS2
-2. Utilisez la commande 'cd' pour vous déplacer vers le répertoire dans lequel est cloné le dépôt Git.
-3. Compilez le code avec gcc
+1. Lancez le terminal :
+* MacOs : ouvrez Terminal
+* Linux (Ubuntu) : ouvrez le terminal approprié pour votre distribution (par exemple Terminal sur Ubuntu)
+* Windows : ouvrez le terminal MSYS2
+3. Utilisez la commande 'cd' pour vous déplacer vers le répertoire dans lequel est cloné le dépôt Git.
+4. Compilez le code avec gcc
 ```bash
 gcc -o exe vigenere_file.c
 ```
