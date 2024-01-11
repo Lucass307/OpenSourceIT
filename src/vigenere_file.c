@@ -64,13 +64,19 @@ void vigenere_main(int argc, char * argv[]) {
         fprintf(stderr, "Erreur ouverture \"%s\"\n", path);
         exit(EXIT_FAILURE);
     }
+    // Ajoutez le code pour déterminer le nom du fichier de sortie
+    char outputFileName[100]; // Ajustez la taille selon vos besoins
+    snprintf(outputFileName, sizeof(outputFileName), "%s_%s.txt", path, (sign == 1) ? "encode" : "decode");
+
+    if ((output = fopen(outputFileName, "w")) == NULL) {
+        fprintf(stderr, "Erreur ouverture \"%s\"\n", outputFileName);
+        fclose(input);
+        exit(EXIT_FAILURE);
+    }
+
     /* Nous appliquons le codage vigénère depuis la récupération */
     /* dans le fichier. */
     vigenere(input, cle, sign, output);
     fclose(input);
-}
-
-int main(int argc, char *argv[]) {
-    vigenere_main(argc, argv);
-    return 0;
+    fclose(output);
 }
