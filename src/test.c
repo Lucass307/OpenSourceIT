@@ -44,36 +44,44 @@ void test_vigenere_encrypt() {
     fclose(result1);
 }
 
-/*void test_vigenere_decrypt() {
+void test_vigenere_decrypt() {
     // Test case 1
     FILE *input1 = fopen("test_input1.txt", "w");
     fputs("RIJVS", input1);
     fclose(input1);
 
-    char *argv1[] = {"myprogram", "test_input1.txt", "KEY", "decode"};
-    printf("Running decrypt test with arguments: ");
-    for (int i = 0; i < 4; ++i) {
-        printf("%s ", argv1[i]);
-    }
-    printf("\n");
+    // Open the file in read mode
+    input1 = fopen("test_input1.txt", "r");
 
-    vigenere_main(4, argv1);
+    FILE *result1 = fopen("test_output1.txt", "w");
 
-    FILE *result1 = fopen("test_output1.txt", "r");
-    char buffer1[1024];
-    fgets(buffer1, sizeof(buffer1), result1);
+    vigenere(input1, "KEY", 0, result1);  // Set the third parameter to 0 for decryption
+    fclose(input1);  // Close the file before reopening
     fclose(result1);
 
+    // Read the result from the output file
+    result1 = fopen("test_output1.txt", "r");
+    char buffer1[1024];
+    fgets(buffer1, 1024, result1);
+    fclose(result1);
+
+    // Add these display instructions
+    printf("Expected: HELLO\n");
+    printf("Actual  : %s\n", buffer1);
+
+    result1 = fopen("test_output1.txt", "r");
+    rewind(result1);
     printf("Output for decrypt: %s\n", buffer1);
     TEST_ASSERT_EQUAL_STRING("HELLO", buffer1);
-}*/
+    fclose(result1);
+}
 
 int main(void) {
     UNITY_BEGIN();
 
     // Exécuter vos tests
     RUN_TEST(test_vigenere_encrypt);
-    // RUN_TEST(test_vigenere_decrypt);
+    RUN_TEST(test_vigenere_decrypt);
 
     return UNITY_END();
 }
