@@ -1,3 +1,13 @@
+[![C/C++ CI](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml/badge.svg)](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml)
+
+![GitHub issues](https://img.shields.io/github/issues-raw/Lucass307/OpenSourceIT)
+
+## Systèmes d'Exploitation
+
+![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
+![MacOS](https://img.shields.io/badge/MacOS-Supported-brightgreen)
+![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen)
+
 # OpenSourceIT
 
 vigenere_file - Un programme en langage C qui permet de chiffrer le contenu d'un fichier avec la méthode de Vigenère.
