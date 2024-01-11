@@ -31,6 +31,6 @@ Le programme a pour fonction la lecture d'un texte à partir d'un fichier texte,
 * [Installation Linux](https://lien-ici) - Pour bénéficier du programme sur votre machine Linux
   * [Installation programme](https://lien-ici#tag) - Installer le programme pour l'utiliser
 * [Utilisation](https://lien-ici) - Pour comprendre comment utiliser et lancer le programme
-* [Coding](https://https://github.com/Lucass307/OpenSourceIT/blob/main/docs/coding.md) - Un environnement pour coder sur le projet 
+* [Coding](https://github.com/Lucass307/OpenSourceIT/blob/main/docs/coding.md) - Un environnement pour coder sur le projet
 * [Contribuer](https://lien-ici) - étapes à suivre pour contribuer sur le projet
 
