@@ -11,7 +11,6 @@ Nombre d'issue ouvert :
 Systèmes d'Exploitation :
 
 ![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
-![MacOS](https://img.shields.io/badge/MacOS-Supported-brightgreen)
 ![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen)
 
 # OpenSourceIT
