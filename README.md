@@ -1,6 +1,6 @@
 [![C/C++ CI](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml/badge.svg)](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml)
 
-![GitHub issues](https://img.shields.io/github/issues-raw/Lucass307/OpenSourceIT)
+![GitHub issues](https://img.shields.io/github/issues/Lucass307/OpenSourceIT)
 
 ## Systèmes d'Exploitation
 
