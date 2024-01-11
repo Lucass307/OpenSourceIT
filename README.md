@@ -19,25 +19,40 @@ Ce programme a pour fonction la lecture d'un texte à partir d'un fichier texte,
 ## Installation 
 
 ### Prérequis
-* MSYS2
 * GCC (GNU Compiler Collecton)
 
-Pour bénéficier du programme sur votre machine, suivez les étapes d'installation suivantes : 
+Pour bénéficier du programme sur votre machine, suivez les étapes d'installation suivantes :
 
-### 1. Installer MSYS2
-
+### installation sur Windows
+1. Installer MSYS2
 Si vous n'avez pas déjà MSYS2 installé, téléchargez-le à partir du site officiel : [MSYS2](https://www.msys2.org/)
 
-### 2. Installer GCC (GNU Compiler Collection)
-
+2. Installer GCC (GNU Compiler Collection)
 Une fois MSYS2 installé, ouvrez le terminal MSYS2 et exécutez la commande suivante pour installer GCC :
 
 ```bash
 pacman -S mingw-w64-x86_64-gcc
 ```
 
+### Installation sur MacOS
+Sur MacOs, vous pouvez utiliser le gestionnaire de paquets Homebrew pour installer GCC.
+Si vous n'avez pas encore Homebrew, installez-le en suivant les instructions sur le [site officiel](https://brew.sh/). Ensuite, exécutez la commande suivante :
+
+```bash
+brew install gcc
+```
+
+### Installation sur Linux (Ubuntu)
+Sur Linux, utilisez le gestionnaire de paquets pour installer GCC. 
+
+```bash
+sudo apt-get update
+sudo apt-get install build-essential
+```
+
 ## Utilisation
 
+### Lancer le programme avec Windows
 Après avoir cloné le dépôt Git et installé les dépendances nécessaires, voici les étapes à suivre pour lancer le programme : 
 1. Lancez le terminal MSYS2
 2. Utilisez la commande 'cd' pour vous déplacer vers le répertoire dans lequel est cloné le dépôt Git.
