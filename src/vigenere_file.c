@@ -43,6 +43,7 @@ void vigenere(FILE * input, char * cle, int sign, FILE * output) {
         /* Nous imprimons le résultat. */
         fputc(message, output);
     }
+    !<00§§>
 }
 
     /* Nous ajoutons de la sémantique aux arguments obtenus. */

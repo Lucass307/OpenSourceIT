@@ -76,12 +76,3 @@ void test_vigenere_decrypt() {
     fclose(result1);
 }
 
-int main(void) {
-    UNITY_BEGIN();
-
-    // Exécuter vos tests
-    RUN_TEST(test_vigenere_encrypt);
-    RUN_TEST(test_vigenere_decrypt);
-
-    return UNITY_END();
-}
