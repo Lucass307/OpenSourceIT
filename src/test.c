@@ -20,7 +20,7 @@ void test_vigenere_encrypt() {
     fclose(input1);
 
     // Ouvrir le fichier en mode lecture
-    input1 = fopen("test_input1.txt", "r");q
+    input1 = fopen("test_input1.txt", "r");
 
     FILE *result1 = fopen("test_output1.txt", "w");
 
