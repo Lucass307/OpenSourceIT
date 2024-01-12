@@ -5,6 +5,12 @@
 
 Ensuite, suivez ces instructions pour éxecuter le programme : 
 
+Entrer dans le Répertoire du Projet :
+
+```bash
+cd OpenSourceIT/
+```
+
 Compilez le code avec gcc :
 ```bash
 gcc -o myprogram ./src/vigenere_file.c ./src/main.c
