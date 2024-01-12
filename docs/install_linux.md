@@ -9,6 +9,8 @@ sudo apt-get update
 sudo apt-get install build-essential
 ```
 
+## Arch Linux
+
 Sur Arch Linux, utilisez pacman :
 
 ```bash
