@@ -5,7 +5,7 @@
 
 Ensuite, suivez ces instructions pour éxecuter le programme : 
 
-Compilez le code avec gcc
+Compilez le code avec gcc :
 
 gcc -o myprogram ./src/vigenere_file.c ./src/main.c
 
