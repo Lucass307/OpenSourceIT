@@ -10,7 +10,6 @@
 
 ### Compatibilité des Systèmes d'Exploitation
 ![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
-![MacOS](https://img.shields.io/badge/MacOS-Supported-brightgreen)
 ![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen)
 
 ## À Propos du Projet
@@ -31,9 +30,6 @@ Ce programme lit un texte à partir d'un fichier et applique la méthode de chif
     - [MSYS2](https://lien-ici#tag) : Environnement Linux pour Windows.
     - [GCC](https://lien-ici#tag) : Compilateur pour le langage C sous MSYS2.
     - [Installation du Programme](https://lien-ici#tag) : Étapes pour installer OpenSourceIT.
-
-#### MacOS
-- [Guide d'Installation pour MacOS](https://lien-ici)
 
 #### Linux
 - [Guide d'Installation pour Linux](https://lien-ici)
