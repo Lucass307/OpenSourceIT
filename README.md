@@ -46,4 +46,4 @@ Ce programme lit un texte à partir d'un fichier et applique la méthode de chif
 - [Documentation Complète](https://<nom_utilisateur>.github.io/<nom_dépôt>/docs/)
 
 ## Licence
-Ce projet est sous licence [insérer le type de licence ici], comme décrit dans le fichier [LICENSE](./LICENSE).
+Ce projet est sous licence MIT LICENSE, comme décrit dans le fichier [LICENSE](./LICENSE).
