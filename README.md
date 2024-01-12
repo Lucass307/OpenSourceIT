@@ -42,8 +42,5 @@ Ce programme lit un texte à partir d'un fichier et applique la méthode de chif
 - [Code de Conduite](./CODE_OF_CONDUCT.md) : Principes directeurs pour la collaboration.
 - [Coding Guidelines](./docs/coding.md) : Normes et pratiques de codage pour le projet.
 
-### Ressources Complémentaires
-- [Documentation Complète](https://<nom_utilisateur>.github.io/<nom_dépôt>/docs/)
-
 ## Licence
 Ce projet est sous licence MIT LICENSE, comme décrit dans le fichier [LICENSE](./LICENSE).
