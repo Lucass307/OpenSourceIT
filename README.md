@@ -25,22 +25,22 @@ Ce programme lit un texte à partir d'un fichier et applique la méthode de chif
 ### Installation
 
 #### Windows
-- [Guide d'Installation pour Windows](https://lien-ici)
+- [Guide d'Installation pour Windows](https://lucass307.github.io/OpenSourceIT/docs/install_win.md)
   - Prérequis :
-    - [MSYS2](https://lien-ici#tag) : Environnement Linux pour Windows.
-    - [GCC](https://lien-ici#tag) : Compilateur pour le langage C sous MSYS2.
-    - [Installation du Programme](https://lien-ici#tag) : Étapes pour installer OpenSourceIT.
+    - [MSYS2](https://lucass307.github.io/OpenSourceIT/docs/install_win.md#tag) : Environnement Linux pour Windows.
+    - [GCC](https://lucass307.github.io/OpenSourceIT/docs/install_win.md#tag) : Compilateur pour le langage C sous MSYS2.
+    - [Installation du Programme](https://lucass307.github.io/OpenSourceIT/docs/install_win.md#tag) : Étapes pour installer OpenSourceIT.
 
 #### Linux
-- [Guide d'Installation pour Linux](https://lien-ici)
+- [Guide d'Installation pour Linux](https://lucass307.github.io/OpenSourceIT/docs/install_linux.md)
 
 ### Utilisation
-- [Comment Utiliser le Programme](docs/coding.md) : Instructions détaillées pour lancer et utiliser OpenSourceIT.
+- [Comment Utiliser le Programme](https://lucass307.github.io/OpenSourceIT/docs/coding.html) : Instructions détaillées pour lancer et utiliser OpenSourceIT.
 
 ### Contribution au Projet
-- [Contribuer](https://lien-ici) : Étapes et recommandations pour contribuer à OpenSourceIT.
-- [Code de Conduite](./CODE_OF_CONDUCT.md) : Principes directeurs pour la collaboration.
+- [Contribuer](https://lucass307.github.io/OpenSourceIT/docs/contribuate.html) : Étapes et recommandations pour contribuer à OpenSourceIT.
+- [Code de Conduite](https://lucass307.github.io/OpenSourceIT/CODE_OF_CONDUCT.html) : Principes directeurs pour la collaboration.
 - [Coding Guidelines](https://lucass307.github.io/OpenSourceIT/docs/coding.html) : Normes et pratiques de codage pour le projet.
 
 ## Licence
-Ce projet est sous licence MIT LICENSE, comme décrit dans le fichier [LICENSE](./LICENSE).
+Ce projet est sous licence MIT LICENSE, comme décrit dans le fichier [LICENSE](https://lucass307.github.io/OpenSourceIT/LICENCE.html).
