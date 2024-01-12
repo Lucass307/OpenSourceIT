@@ -1,22 +1,29 @@
 ---
 name: Idée de fonctionnalité
-about: Suggérer un idée pour le projet
-title: ''
-labels: ''
+about: Suggérer une idée pour améliorer le projet
+title: 'Proposition de fonctionnalité : [Titre succinct]'
+labels: 'nouvelle fonctionnalité'
 assignees: ''
 
 ---
 
-**Votre fonctionnalité rencontre un problème ? Décrivez-le.**
-Description claire et concise du problème rencontré.
+**Est-ce que votre proposition de fonctionnalité résout un problème ? Si oui, décrivez-le.**
+Une description claire et concise du problème. Exemple : "Je suis toujours frustré quand [...]"
 
-**Description de la solution que vous souhaitez**
-Description claire et concise de ce que vous aimeriez qu'il se passe.
+**Décrivez la solution que vous proposez.**
+Une description claire et concise de ce que vous voulez qu'il se passe.
 
-**Description des alternatives que vous avez considéré**
-Description claire et concise de solutions alternatives à la fonctionnalité.
+**Décrivez les alternatives que vous avez envisagées.**
+Une description claire et concise des solutions ou fonctionnalités alternatives que vous avez envisagées.
 
+**Donnez des exemples de cette fonctionnalité dans d'autres projets, si cela est applicable.**
+Fournissez des références ou des exemples d'autres projets où cette fonctionnalité est mise en œuvre, si possible.
 
+**Contexte supplémentaire ou captures d'écran.**
+Ajoutez ici tout autre contexte ou captures d'écran qui pourraient être utiles pour comprendre la proposition.
 
-**Contexte supplémentaire**
-Ajout de contexte ou de captures d'écran à propos de votre requête ici.
+**Informations supplémentaires sur l'impact technique.**
+Si vous avez des connaissances techniques, décrivez l'impact potentiel de cette fonctionnalité sur le code existant, la structure de base de données, etc.
+
+**Est-ce que cette fonctionnalité nécessite des modifications de documentation ou de formation pour les utilisateurs ?**
+Indiquez si la mise en œuvre de cette fonctionnalité nécessiterait des mises à jour de la documentation ou des sessions de formation pour les utilisateurs.
