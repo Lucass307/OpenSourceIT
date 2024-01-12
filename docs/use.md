@@ -21,3 +21,6 @@ Exécutez le programme en précisant le fichier cible suivie de la clé de chiff
 ./myprogram [fichier] [cle] (decode)
 ```
 Une fois le programme lancé, si votre programme demande à l'utilisateur de spécifier le nom du fichier à traiter ainsi que sa clé, pensez à bien entrer le chemin du fichier ainsi que la clé correspondante.
+
+### Important ! Si vous décidez d'encoder un fichier, le fichier codé se renommera [fichier]_encode.txt.
+### Si c'est décoder, le fichier se nommera [fichier]_decode.txt
