@@ -40,7 +40,7 @@ Ce programme lit un texte à partir d'un fichier et applique la méthode de chif
 ### Contribution au Projet
 - [Contribuer](https://lien-ici) : Étapes et recommandations pour contribuer à OpenSourceIT.
 - [Code de Conduite](./CODE_OF_CONDUCT.md) : Principes directeurs pour la collaboration.
-- [Coding Guidelines](./docs/coding.md) : Normes et pratiques de codage pour le projet.
+- [Coding Guidelines](https://lucass307.github.io/OpenSourceIT/docs/coding.html) : Normes et pratiques de codage pour le projet.
 
 ## Licence
 Ce projet est sous licence MIT LICENSE, comme décrit dans le fichier [LICENSE](./LICENSE).
