@@ -35,7 +35,7 @@ Ce programme lit un texte à partir d'un fichier et applique la méthode de chif
 - [Guide d'Installation pour Linux](https://lien-ici)
 
 ### Utilisation
-- [Comment Utiliser le Programme](https://lien-ici) : Instructions détaillées pour lancer et utiliser OpenSourceIT.
+- [Comment Utiliser le Programme](docs/coding.md) : Instructions détaillées pour lancer et utiliser OpenSourceIT.
 
 ### Contribution au Projet
 - [Contribuer](https://lien-ici) : Étapes et recommandations pour contribuer à OpenSourceIT.
