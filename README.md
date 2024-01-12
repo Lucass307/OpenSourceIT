@@ -25,14 +25,14 @@ Ce programme lit un texte à partir d'un fichier et applique la méthode de chif
 ### Installation
 
 #### Windows
-- [Guide d'Installation pour Windows](https://lucass307.github.io/OpenSourceIT/docs/install_win.md)
+- [Guide d'Installation pour Windows](https://lucass307.github.io/OpenSourceIT/docs/install_win.html)
   - Prérequis :
-    - [MSYS2](https://lucass307.github.io/OpenSourceIT/docs/install_win.md#tag) : Environnement Linux pour Windows.
-    - [GCC](https://lucass307.github.io/OpenSourceIT/docs/install_win.md#tag) : Compilateur pour le langage C sous MSYS2.
-    - [Installation du Programme](https://lucass307.github.io/OpenSourceIT/docs/install_win.md#tag) : Étapes pour installer OpenSourceIT.
+    - [MSYS2](https://lucass307.github.io/OpenSourceIT/docs/install_win.html#tag) : Environnement Linux pour Windows.
+    - [GCC](https://lucass307.github.io/OpenSourceIT/docs/install_win.html#tag) : Compilateur pour le langage C sous MSYS2.
+    - [Installation du Programme](https://lucass307.github.io/OpenSourceIT/docs/install_win.html#tag) : Étapes pour installer OpenSourceIT.
 
 #### Linux
-- [Guide d'Installation pour Linux](https://lucass307.github.io/OpenSourceIT/docs/install_linux.md)
+- [Guide d'Installation pour Linux](https://lucass307.github.io/OpenSourceIT/docs/install_linux.html)
 
 ### Utilisation
 - [Comment Utiliser le Programme](https://lucass307.github.io/OpenSourceIT/docs/coding.html) : Instructions détaillées pour lancer et utiliser OpenSourceIT.
