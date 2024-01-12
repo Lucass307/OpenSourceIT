@@ -1,39 +1,53 @@
-### Badges
-
-Etat du code :
-
-[![C/C++ CI](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml/badge.svg)](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml)
-
-Nombre d'issue ouvert :
-
-![GitHub issues](https://img.shields.io/github/issues/Lucass307/OpenSourceIT)
-
-Systèmes d'Exploitation :
-
-![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
-![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen)
-
 # OpenSourceIT
 
-C'est un programme en langage C qui utilise la méthode de Vigenère pour chiffrer le contenu d'un fichier
+## Badges
+
+### État du Code
+[![C/C++ CI](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml/badge.svg)](https://github.com/Lucass307/OpenSourceIT/actions/workflows/c.yml)
+
+### Issues GitHub
+![GitHub issues](https://img.shields.io/github/issues/Lucass307/OpenSourceIT)
+
+### Compatibilité des Systèmes d'Exploitation
+![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen)
+![MacOS](https://img.shields.io/badge/MacOS-Supported-brightgreen)
+![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen)
+
+## À Propos du Projet
+
+OpenSourceIT est un programme en langage C qui utilise la méthode de chiffrement de Vigenère pour crypter ou décrypter le contenu d'un fichier. Il offre une solution polyvalente pour la sécurité des messages texte, capable de traiter aussi bien l'encodage des messages confidentiels que le décodage des communications cryptées.
 
 ## Description
 
-Le programme a pour fonction la lecture d'un texte à partir d'un fichier texte, puis applique une méthode de chiffrement Vigenère avec une clé spécifiée, que ce soit pour encoder un message confidentiel ou décoder une communication cryptée. Une fois le processus de chiffrement ou de déchiffrement accompli, le résultat est affiché sur la sortie standard, offrant ainsi une solution polyvalente et pratique pour sécuriser ou interpréter des messages texte de manière confidentielle.
-
+Ce programme lit un texte à partir d'un fichier et applique la méthode de chiffrement Vigenère avec une clé spécifiée. Le résultat du processus de chiffrement ou de déchiffrement est affiché sur la sortie standard.
 
 ## Documentation
 
-* [Installation Windows](https://lien-ici) - Pour bénéficier du programme sur votre machine Windows, les prérequis 
-  * [MSYS2](https://lien-ici#tag) - Va permettre d'avoir un environnement linux sur Windows
-  * [GCC](https://lien-ici#tag) - Dans MSYS2, sert à compilr du langage C
-  * [Installation programme](https://lien-ici#tag) - Installer le programme pour l'utiliser
-* [Installation Linux](https://lien-ici) - Pour bénéficier du programme sur votre machine Linux
-  * [Installation programme](https://lien-ici#tag) - Installer le programme pour l'utiliser
-* [Utilisation](https://lien-ici) - Pour comprendre comment utiliser et lancer le programme
-* [Coding](./docs/coding.md) - Un environnement pour coder sur le projet
+### Installation
 
-[Lien vers la Documentation](https://<nom_utilisateur>.github.io/<nom_dépôt>/docs/)
+#### Windows
+- [Guide d'Installation pour Windows](https://lien-ici)
+  - Prérequis :
+    - [MSYS2](https://lien-ici#tag) : Environnement Linux pour Windows.
+    - [GCC](https://lien-ici#tag) : Compilateur pour le langage C sous MSYS2.
+    - [Installation du Programme](https://lien-ici#tag) : Étapes pour installer OpenSourceIT.
 
-* [Contribuer](https://lien-ici) - étapes à suivre pour contribuer sur le projet
+#### MacOS
+- [Guide d'Installation pour MacOS](https://lien-ici)
 
+#### Linux
+- [Guide d'Installation pour Linux](https://lien-ici)
+
+### Utilisation
+- [Comment Utiliser le Programme](https://lien-ici) : Instructions détaillées pour lancer et utiliser OpenSourceIT.
+
+### Contribution au Projet
+- [Contribuer](https://lien-ici) : Étapes et recommandations pour contribuer à OpenSourceIT.
+- [Code de Conduite](./CODE_OF_CONDUCT.md) : Principes directeurs pour la collaboration.
+- [Coding Guidelines](./docs/coding.md) : Normes et pratiques de codage pour le projet.
+
+### Ressources Complémentaires
+- [Documentation Complète](https://<nom_utilisateur>.github.io/<nom_dépôt>/docs/)
+
+## Licence
+Ce projet est sous licence [insérer le type de licence ici], comme décrit dans le fichier [LICENSE](./LICENSE).
