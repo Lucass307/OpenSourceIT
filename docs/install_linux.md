@@ -17,6 +17,9 @@ Sur Arch Linux, utilisez pacman :
 sudo pacman -S gcc
 ```
 
+
+
+
 Après l'installation, vous pouvez vérifier que GCC est correctement installé en exécutant la commande suivante dans le terminal :
 
 
