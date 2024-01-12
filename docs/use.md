@@ -3,7 +3,7 @@
 
 ## Après avoir installé les dépendances nécessaires, clonez le dépot git du projet !
 
-**Cloner le Projet** : Clonez le projet depuis le dépôt GitHub :
+Cloner le Projet : Clonez le projet depuis le dépôt GitHub :
 
     ```bash
     git clone https://github.com/nom-utilisateur/OpenSourceIT.git
