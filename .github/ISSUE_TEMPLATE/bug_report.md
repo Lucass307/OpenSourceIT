@@ -1,38 +1,39 @@
 ---
 name: Rapport de bug
-about: Créer un rapport pour contribuer à l'amélioration du projet vigenere_file
-title: 'Entrez le titre du bug'
-labels: 'bug, à trier'
+about: Utilisez ce modèle pour signaler des bugs et contribuer à l'amélioration de vigenere_file
+title: '[BUG] <Titre court et descriptif>'
+labels: 'bug'
 assignees: ''
 
 ---
 
-**Description du bug**
-<!-- Description claire et concise du bug. Incluez des détails spécifiques à l'opération de chiffrement/déchiffrement. -->
+## Description du Bug
+Une description claire et concise du bug. Mentionnez si le problème concerne le chiffrement, le déchiffrement, ou les deux.
 
-**Commande exécutée**
-<!-- La commande complète que vous avez exécutée, incluant la clé et l'option de codage/décodage. -->
+## Commande Exécutée
+Indiquez la commande exacte que vous avez utilisée, y compris la clé de chiffrement et l'option choisie (encode/decode).
 
-**Étapes pour reproduire**
-<!-- Étapes pour reproduire le comportement :
-1. Ouvrez le terminal (précisez le terminal utilisé et sa version).
-2. Naviguez jusqu'au dossier contenant le fichier vigenere_file.
-3. Exécutez la commande `./vigenere_file [fichier][clé] [encode/decode]`.
-4. Observez l'erreur et décrivez-la. -->
+## Pour Reproduire
+Étapes pour reproduire le bug :
+1. Ouvrir le terminal (indiquez le type de terminal et sa version).
+2. Aller au dossier contenant `vigenere_file`.
+3. Exécuter la commande suivante : `./vigenere_file [chemin_vers_fichier] [clé] [encode/decode]`.
+4. Décrire l'erreur observée.
 
-**Comportement attendu**
-<!-- Description claire et précise de ce que vous attendiez qu'il se passe. -->
+## Comportement Attendu
+Une description claire de ce que vous espériez obtenir en exécutant la commande.
 
-**Environnement**
-- Système d'exploitation : [e.g. Windows, MacOS, Linux]
-- Version de l'OS : [e.g. Windows 10, MacOS Catalina, Ubuntu 20.04]
-- Version de l'outil de développement : [e.g. GCC 9.3.0, Python 3.8]
+## Environnement
+- Système d'Exploitation: [ex. Windows, MacOS, Linux]
+- Version du Système: [ex. Windows 11, MacOS Monterey, Ubuntu 22.04]
+- Version de l'Outil de Développement : [ex. GCC 10.2.0, Clang 12.0.0]
 
-**Captures d'écran**
-<!-- Ajoutez des captures d'écran pour mieux expliquer votre problème (facultatif). -->
+## Captures d'Écran
+Si possible, ajoutez des captures d'écran pour illustrer le problème.
 
-**Contexte supplémentaire**
-<!-- Ajoutez tout autre contexte sur le problème ici, telles que les modifications récentes dans votre environnement de développement. -->
+## Contexte Supplémentaire
+Toute information additionnelle comme des changements récents dans votre configuration ou environnement de développement.
 
-**Fichier de log**
-<!-- Si applicable, ajoutez ici le fichier de log ou l'output de la console pour donner plus de détails. -->
+## Fichier de Log ou Output de la Console
+Si applicable, ajoutez le fichier de log ou la sortie de la console pour plus de détails.
+
