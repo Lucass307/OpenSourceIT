@@ -5,11 +5,9 @@
 
 Cloner le Projet : Clonez le projet depuis le dépôt GitHub :
 
-    ```bash
     git clone https://github.com/nom-utilisateur/OpenSourceIT.git
-    ```
 
-    Remplacez `nom-utilisateur` par vos informations.
+Remplacez `nom-utilisateur` par vos informations.
 
 Ensuite, suivez ces instructions pour éxecuter le programme : 
 
