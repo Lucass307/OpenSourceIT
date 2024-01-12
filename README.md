@@ -23,18 +23,12 @@ Ce programme lit un texte à partir d'un fichier et applique la méthode de chif
 ## Documentation
 
 ### Installation
-
-#### Windows
+    
 - [Guide d'Installation pour Windows](https://lucass307.github.io/OpenSourceIT/docs/install_win.html)
-  - Prérequis :
-    - [MSYS2 et GCC](https://lucass307.github.io/OpenSourceIT/docs/install_win.html#1-installer-msys2) : Environnement Linux pour Windows.
-    - [Installation du Programme](https://lucass307.github.io/OpenSourceIT/docs/install_win.html#tag) : Étapes pour installer OpenSourceIT.
-
-#### Linux
 - [Guide d'Installation pour Linux](https://lucass307.github.io/OpenSourceIT/docs/install_linux.html)
 
 ### Utilisation
-- [Comment Utiliser le Programme](https://lucass307.github.io/OpenSourceIT/docs/coding.html) : Instructions détaillées pour lancer et utiliser OpenSourceIT.
+- [Comment Utiliser le Programme](https://lucass307.github.io/OpenSourceIT/docs/use.html) : Instructions détaillées pour lancer et utiliser OpenSourceIT.
 
 ### Contribution au Projet
 - [Contribuer](https://lucass307.github.io/OpenSourceIT/docs/contribuate.html) : Étapes et recommandations pour contribuer à OpenSourceIT.
