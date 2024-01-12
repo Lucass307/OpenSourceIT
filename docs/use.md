@@ -9,7 +9,7 @@ Cloner le Projet : Clonez le projet depuis le dépôt GitHub :
 
 Remplacez `nom-utilisateur` par vos informations.
 
-Ensuite, suivez ces instructions pour éxecuter le programme : 
+## Ensuite, suivez ces instructions pour éxecuter le programme : 
 
 Entrer dans le Répertoire du Projet :
 
